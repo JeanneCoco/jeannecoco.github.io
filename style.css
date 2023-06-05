@@ -42,3 +42,13 @@ body {
     background-size: cover;
     background-position: center 25%;
 }
+
+#traits {
+    color: #30D5C8;
+    will-change: contents;
+}
+
+#cardText {
+    display: none;
+}
+

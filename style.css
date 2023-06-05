@@ -12,11 +12,12 @@
 
 :root {
     --font: 'HachiMaruPop', sans-serif;
-    --accentColor: #66d0e3
+    --accentColor: #66d0e3;
+    background: #ff7aff;
+}
 
 body {
     margin: 0;
     padding: 0;
-    background: #ff7aff
 }
     

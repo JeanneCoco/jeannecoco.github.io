@@ -13,6 +13,7 @@
 :root {
     --font: 'HachiMaruPop', sans-serif;
     --accentColor: #66d0e3;
+    background: #ff7aff;
 }
 
 body {
@@ -24,4 +25,13 @@ body {
     max-width: 30rem;
     padding: 0 20px 15px;
     margin: 0 auto;
+}
+
+#cardMenu {
+    display: none;
+}
+
+#bannerContainer {
+    height: 200px;
+    position: relative;
 }

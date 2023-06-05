@@ -4,11 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jeanne's Cave</title>
+    <title>RabbitBunny</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 
 <body id="home">
     <section id="section">
-        
+        <div id="container">
+            <div id="shtola1"></div>
+            <div id="fish1"></div>
+            <div id="card">
+                <div id="cardBar">
+                    <div id="cardText">comfy.exe</div>
+                </div>
+                <div id="header">
+                    <div id="bunny1"></div>
+                    <div id="bunny2"></div>
+                    <div id="bunny3"></div>
+                    <div id="bunny4"></div>
+                        <p class="headerName mb-5">Jeanne's World</p>
+                        <div id="carrot2"></div>
+                        <span class="headerName headerJapanese1">フリクリ</span>
+                    
+                    <p class="headerText dek">Hi, I'm Jeanne, a real life 
+                        <span class="headerTextAccent" id="traits" data-words="idiot,weeb,ffxiv enjoyer,dreamer,flower enthusiast,flcl lover,time waster,fruit appreciator,"></span><span id="cursor">|</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>

@@ -10,9 +10,13 @@
     src: url('assets/fonts/MateSC-Regular.ttf');
   }
 
+:root {
+    --font: 'HachiMaruPop', sans-serif;
+    --accentColor: #66d0e3
 
 body {
     margin: 0;
     padding: 0;
+    background: #ff7aff
 }
     

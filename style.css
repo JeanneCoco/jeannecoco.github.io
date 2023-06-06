@@ -94,3 +94,197 @@ body {
     right: 0;
 }
 
+#fish1 {
+    display: block;
+    position: fixed;
+    background-image: url('assets/image/fish1.png');
+    height: 180px;
+    width: 150px;
+    background-size: cover;
+    left: 0;
+    bottom: 0;
+}
+
+#bunny1 {
+    display: none;
+}
+
+#bunny2 {
+    display: none;
+}
+
+#bunny3 {
+    display: none;
+}
+
+#bunny4 {
+    display: none;
+}
+
+#section {
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+    #home {
+        background: url("https://static.tumblr.com/d40eae727a79de74c5b3c4cb5c8e9fd5/2icx37z/h42pam4gt/tumblr_static_9hudcw057yg4gss440so8cg0g.png");
+    }
+
+    #fish1 {
+        height: 220px;
+        width: 169px;
+    }
+
+    #bunny1 {
+        display: block;
+        position: absolute;
+        background-image: url('assets/image/bunny1.png');
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        top: -15px;
+        left: 10px;
+    }
+    
+    #bunny2 {
+        display: block;
+        position: absolute;
+        background-image: url('assets/image/bunny2.png');
+        height: 100px;
+        width: 100px;
+        bottom: 0;
+        background-size: cover;
+        top: 10px;
+        left: 60px;
+    }
+    
+    #bunny3 {
+        display: block;
+        position: absolute;
+        background-image: url('assets/image/bunny3.png');
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        top: -15px;
+        right: 10px;
+    }
+    
+    #bunny4 {
+        display: block;
+        position: absolute;
+        background-image: url('assets/image/bunny4.png');
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        top: 10px;
+        right: 60px;
+    }
+
+    #shtola1 {
+        top: 19rem;
+    }
+
+    #card {
+        padding: 0 20px 40px;
+        margin: 0 auto;
+        border: 1px solid var(--accentColor);
+        box-shadow: 10px 10px 0 rgb(220 220 220 / 50%);
+        background: white;
+        border-radius: 10px;
+        padding: 0 20px 50px;
+        margin: 15px auto;
+        position: relative;
+        transform: translateY(-150px);
+    }
+
+    #cardMenu {
+        display: initial;
+        width: 75px;
+        position: absolute;
+        height: 16px;
+        margin-right: 15px;
+        right: 0;
+        border: 1px solid var(--accentColor);
+        border-top: 0;
+    }
+
+    .rightButtons {
+        width: 24px;
+        float: left;
+        font-family: 'MateSC', sans-serif;
+        height: 100%;
+        text-align: center;
+        color: #87B6D3;
+        font-size: 11px;
+        background-color: #ffffff;
+    }
+
+    #button1 {
+        border-right: 1px solid var(--accentColor);
+        line-height: 1.2;
+    }
+
+    #button2 {
+        border-right: 1px solid var(--accentColor);
+        line-height: 1.8;
+        font-size: 9px;
+    }
+
+    #button3 {
+        line-height: 1.5;
+    }
+
+    #cardBar {
+        background: #e9f6fd;
+        height: 25px;
+        width: -webkit-fill-available;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+    }
+
+    #cardText {
+        display: initial;
+        left: 0;
+        position: absolute;
+        font-family: 'MateSC';
+        font-size: 0.625rem;
+        margin-left: 15px;
+        margin-top: 7px;
+        color: #87B6D3;
+        letter-spacing: 0.1rem;
+        text-transform: lowercase;
+    }
+
+    #profilePicture, #profilePicture img {
+        top: 37%;
+        z-index: 1;
+    }
+
+    #header {
+        margin-top: 75px;
+    }
+}
+
+.headerName {
+    font-family: 'HachiMaruPop', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.25;
+    color: #72564B;
+    display: inline-block;
+}
+
+.headerText {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #8f7156;
+}

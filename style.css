@@ -87,8 +87,8 @@ body {
     display: block;
     position: absolute;
     background-image: url('assets/image/shtola1.png');
-    height: 1000px;
-    width: 1000px;
+    height: 600px;
+    width: 600px;
     background-size: cover;
     top: 5rem;
     right: 0;
@@ -96,7 +96,7 @@ body {
 
 #fish1 {
     display: block;
-    position: fixed;
+    position: absolute;
     background-image: url('assets/image/fish1.png');
     height: 217px;
     width: 320px;
@@ -194,7 +194,7 @@ body {
         padding: 0 20px 50px;
         margin: 15px auto;
         position: relative;
-        transform: translateY(-150px);
+        transform: translateY(-350px);
     }
 
     #cardMenu {

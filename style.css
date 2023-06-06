@@ -87,8 +87,8 @@ body {
     display: block;
     position: absolute;
     background-image: url('assets/image/shtola1.png');
-    height: 145px;
-    width: 127px;
+    height: 2000px;
+    width: 1700px;
     background-size: cover;
     top: 5rem;
     right: 0;
@@ -98,8 +98,8 @@ body {
     display: block;
     position: fixed;
     background-image: url('assets/image/fish1.png');
-    height: 180px;
-    width: 150px;
+    height: 217px;
+    width: 320px;
     background-size: cover;
     left: 0;
     bottom: 0;
